@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40" started-at="2020-02-25T22:27:10Z" finished-at="2020-02-25T22:27:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40" started-at="2020-02-25T22:27:10Z" finished-at="2020-02-25T22:27:10Z">
+      <class name="automationtest.RESTAPITest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:automationtest.RESTAPITest@3f200884]" name="deleteTwitter" duration-ms="5" started-at="2020-02-26T09:27:10Z" finished-at="2020-02-26T09:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:automationtest.RESTAPITest@3f200884]" name="postJira" duration-ms="0" started-at="2020-02-26T09:27:10Z" finished-at="2020-02-26T09:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- automationtest.RESTAPITest -->
+      <class name="automationtest.SeleniumTest">
+        <test-method status="PASS" signature="BrowserAUtomation()[pri:0, instance:automationtest.SeleniumTest@5a4aa2f2]" name="BrowserAUtomation" duration-ms="0" started-at="2020-02-26T09:27:10Z" finished-at="2020-02-26T09:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAUtomation -->
+        <test-method status="PASS" signature="elementsUi()[pri:0, instance:automationtest.SeleniumTest@5a4aa2f2]" name="elementsUi" duration-ms="1" started-at="2020-02-26T09:27:10Z" finished-at="2020-02-26T09:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUi -->
+      </class> <!-- automationtest.SeleniumTest -->
+      <class name="automationtest.AppiumTest">
+        <test-method status="PASS" signature="IOSApps()[pri:0, instance:automationtest.AppiumTest@6591f517]" name="IOSApps" duration-ms="0" started-at="2020-02-26T09:27:10Z" finished-at="2020-02-26T09:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method status="PASS" signature="NativeAPpAndroid()[pri:0, instance:automationtest.AppiumTest@6591f517]" name="NativeAPpAndroid" duration-ms="0" started-at="2020-02-26T09:27:10Z" finished-at="2020-02-26T09:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeAPpAndroid -->
+      </class> <!-- automationtest.AppiumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
